@@ -38,11 +38,6 @@
         margin-top: 41px;
     }
 }
-@media (max-height: 1400px) {
-    .banner-section {
-        padding-top: 45%;
-    }
-}
 @media (max-height: 600px) {
     .banner-section {
         padding-top: 18%;
