@@ -43,11 +43,6 @@
         padding-top: 45%;
     }
 }
-@media (max-height: 1200px) {
-    .banner-section {
-        padding-top: 11%;
-    }
-}
 @media (max-height: 600px) {
     .banner-section {
         padding-top: 18%;
