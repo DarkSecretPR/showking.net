@@ -1,0 +1,40 @@
+@media (max-width: 991px) {
+    .banner-section {
+        padding-top: 17%;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-section {
+        padding-top: 28%;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-section .banner-title-2 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 493px) {
+    .banner-section .banner-title-1 {
+        font-size: 1rem;
+        padding: 5px 0px;
+    }
+
+    .banner-section .banner-title-2 {
+        font-size: 2rem;
+    }
+
+    .banner-section {
+        padding-top: 50%;
+    }
+
+    .banner-section .banner-title-2:before {
+        margin-top: -19px;
+    }
+
+    .banner-section .banner-title-2:after {
+        margin-top: 41px;
+    }
+}

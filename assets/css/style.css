@@ -7,7 +7,7 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
-    color: #737373;
+    color: #444;
     letter-spacing: 1.5px;
 }
 
@@ -63,7 +63,7 @@ body {
     margin-right: 15px;
 }
 
-.head-section .content{
+.head-section .content {
     position: relative;
     width: 100%;
     background: #fff;
@@ -71,11 +71,33 @@ body {
     padding: 50px;
 }
 
-.head-section .content .head-img{
+.head-section .content .head-img {
     width: 228px;
     border: 7px solid #9da7c3;
 }
 
+.head-section .block {
+    padding: 15px 0px;
+}
+
+.head-section .block .icon {
+    font-size: 38px;
+    float: left;
+    padding: 16px 15px 0px 0px;
+}
+
 .mt20 {
     margin-top: 20px;
+}
+
+.p0 {
+    padding: 0px;
+}
+
+.pt5 {
+    padding-top: 5px;
+}
+
+.pt23 {
+    padding-top: 23px;
 }
