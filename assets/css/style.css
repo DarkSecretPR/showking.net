@@ -69,6 +69,8 @@ body {
     background: #fff;
     margin-top: -17%;
     padding: 50px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 55px;
 }
 
 .head-section .content .head-img {
@@ -86,10 +88,21 @@ body {
     padding: 16px 15px 0px 0px;
 }
 
+.introduction-section {
+    line-height: 34px;
+    letter-spacing: 7px;
+}
+
 .mt20 {
     margin-top: 20px;
 }
 
+.mb30{
+    margin-bottom: 30px;
+}
+.mb50{
+    margin-bottom: 50px;
+}
 .p0 {
     padding: 0px;
 }
@@ -100,4 +113,8 @@ body {
 
 .pt23 {
     padding-top: 23px;
+}
+
+.full-width {
+    width: 100%;
 }

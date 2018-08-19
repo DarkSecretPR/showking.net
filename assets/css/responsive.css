@@ -8,6 +8,13 @@
     .banner-section {
         padding-top: 28%;
     }
+    .navbar-collapse{
+        text-align: left;
+    }
+    .navbar-nav{
+        float: left!important;
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -36,6 +43,11 @@
 
     .banner-section .banner-title-2:after {
         margin-top: 41px;
+    }
+}
+@media (max-width: 320px) {
+    .head-section .content {
+        padding: 30px;
     }
 }
 @media (max-height: 360px) {
