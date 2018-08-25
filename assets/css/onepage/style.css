@@ -14,7 +14,7 @@ body {
 
 /* h1-h6 */
 .content h1, .content h2 {
-    font: 500 37px Microsoft JhengHei, 'Raleway', sans-serif;
+    font: 500 27px Microsoft JhengHei, 'Raleway', sans-serif;
     margin: 0 0 25px;
     text-transform: uppercase;
     text-align: center;
@@ -1283,7 +1283,7 @@ a:hover {
 .message-block h2 {
     z-index: 2;
     color: #fff;
-    font-size: 35px;
+    font-size: 27px;
     font-weight: 700;
     line-height: 42px;
     position: relative;
@@ -1889,8 +1889,8 @@ Styler Panel
     font-size: 18px;
 }
 
-.font-25 {
-    font-size: 25px;
+.font-20 {
+    font-size: 20px;
 }
 
 .font-weight-bold {
