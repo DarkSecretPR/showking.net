@@ -10,170 +10,165 @@
     <link rel="apple-touch-icon" href="img/icon/favicon.png">
     <title>Show King</title>
     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link href="assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/global/plugins/slider-revolution-slider/rs-plugin/css/settings.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="assets/global/css/components.css" rel="stylesheet">
+    <link href="assets/css/onepage/style.css" rel="stylesheet">
+    <link href="assets/css/onepage/style-responsive.css" rel="stylesheet">
+    <link href="assets/css/onepage/themes/gray.css" rel="stylesheet" id="style-color">
+    <link href="assets/css/onepage/custom.css" rel="stylesheet">
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Show King</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav float-right">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">首頁 <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">作品集</a>
+<header class="header header-mobi-ext">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-sm-2">
+                <a class="scroll site-logo" href="#promo-block">
+                    ShowKing
+                </a>
+            </div>
+            <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
+            <div class="col-md-10 pull-right">
+                <ul class="header-navigation">
+                    <li class="current"><a href="#promo-block">首頁</a></li>
+                    <li><a href="#about">關於我</a></li>
+                    <li><a href="#message-block">工作態度</a></li>
+                    <li><a href="#intro">簡介</a></li>
+                    <li><a href="#skill">技能分佈</a></li>
+                    <li><a href="#works">作品集</a></li>
+                    <li><a href="#qa">問與答</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="promo-block" id="promo-block">
+        <div class="tp-banner-container">
+            <div class="tp-banner">
+                <ul>
+                    <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-delay="9400"
+                        class="slider-item-1">
+                        <img src="img/onepage/slider/slider1.jpg" alt="" data-bgfit="cover"
+                             style="opacity:0.4 !important;" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <div class="tp-caption large_text customin customout start"
+                             data-x="center"
+                             data-hoffset="0"
+                             data-y="center"
+                             data-voffset="60"
+                             data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                             data-speed="1000"
+                             data-start="500"
+                             data-easing="Back.easeInOut"
+                             data-endspeed="300">
+                            <div class="promo-like"><i class="fa fa-thumbs-up"></i></div>
+                            <div class="promo-like-text">
+                                <h2>HU, JIA-JHE</h2>
+                                <p>Full Stack Developer</p>
+                            </div>
+                        </div>
+                        <div class="tp-caption large_bold_white fade"
+                             data-x="center"
+                             data-y="center"
+                             data-voffset="-110"
+                             data-speed="300"
+                             data-start="1700"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="500"
+                             data-endeasing="Power1.easeIn"
+                             data-captionhidden="off"
+                             style="z-index: 6">This <span>is</span> me
+                        </div>
                     </li>
                 </ul>
             </div>
         </div>
-    </nav>
-</header>
-<section class="banner-section">
-    <div class="container-fluid">
-        <div class="banner-title-1">This is me</div>
-        <div class="banner-title-2">HU, JIA-JHE</div>
-        <div class="banner-title-1 mt20">Backend Developer</div>
-    </div>
-</section>
-<main>
-    <section class="head-section">
+    </section>
+    <section class="about-block content content-center" id="about">
         <div class="container">
-            <div class="content">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="img/pic/head.png" class="head-img">
+            <h2 class="font-weight-bold"><strong class="font-18"> WHO AM I</strong><br>ABOUT ME</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/pic/head.png" class="head-img">
+                </div>
+                <div class="col-md-8">
+                    <div class="col-md-4 col-sm-4 col-xs-12 item">
+                        <i class="fa fa-user"></i>
+                        <h3>姓名</h3>
+                        <p>胡家哲</p>
                     </div>
-                    <div class="col-md-8">
-                        <div>
-                            <h7>About Me</h7>
-                            <h3 class="font-weight-bold">WHO AM I</h3>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="block">
-                                    <span class="icon">
-                                        <i class="fa fa-user"></i>
-                                    </span>
-                                    <span class="name">
-                                        <h6 class="font-weight-bold">姓名</h6>
-                                        <span>胡家哲</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="block">
-                                    <span class="icon">
-                                        <i class="fa fa-globe"></i>
-                                    </span>
-                                    <span class="name">
-                                        <h6 class="font-weight-bold">就讀科系</h6>
-                                        <span>資訊工程系</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="block">
-                                    <span class="icon">
-                                        <i class="fa fa-laptop"></i>
-                                    </span>
-                                    <span class="name">
-                                        <h6 class="font-weight-bold">專長</h6>
-                                        <span>後端程式開發</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="block">
-                                    <span class="icon">
-                                        <i class="fa fa-smile"></i>
-                                    </span>
-                                    <span class="name">
-                                        <h6 class="font-weight-bold pt23">興趣</h6>
-                                    </span>
-                                    <div class="pt5">
-                                        1. 運動 (單車、慢跑)
-                                    </div>
-                                    <div class="pt5">
-                                        2. 國內觀光旅遊
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="block">
-                                    <span class="icon">
-                                        <i class="fa fa-list-alt"></i>
-                                    </span>
-                                    <span class="name">
-                                        <h6 class="font-weight-bold pt23">工作經驗</h6>
-                                    </span>
-                                    <div class="pt5">
-                                        1. 一宇橙數位設計 (2-3 years)
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 item">
+                        <i class="fa fa-globe"></i>
+                        <h3>就讀科系</h3>
+                        <p>資訊工程系</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 item">
+                        <i class="fa fa-laptop"></i>
+                        <h3>專長</h3>
+                        <p>全端程式開發</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 item">
+                        <i class="fa fa-heart"></i>
+                        <h3>興趣</h3>
+                        <ul>
+                            <li>運動 (單車、慢跑)</li>
+                            <li>國內觀光旅遊</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 item">
+                        <i class="fa fa-list-alt"></i>
+                        <h3>工作經驗</h3>
+                        <p>一宇橙數位設計<br>(2-3 years)</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="introduction-section mb50">
+    <section class="message-block content content-center valign-center" id="message-block" style="background: #292F34;">
         <div class="container">
+            <h2>工作態度 <strong class="font-25 message">喜歡享受和同事共同討論解決問題以及新技術分享的過程，平常有程式開發的熱誠、有責任心、樂於持續學習與突破。</strong>
+            </h2>
+        </div>
+    </section>
+    <section class="intro-block content content-center" id="intro">
+        <div class="container">
+            <h2 class="font-weight-bold">簡介</h2>
+            <h4 class="text-info">期望工作內容：後端開發為主</h4>
+            <h4 class="text-info">期望工作地點：台北市、新北市</h4>
             <div class="row">
-                <h5 class="text-center full-width mb30"><strong>簡介</strong></h5>
                 <div class="col-md-2"></div>
                 <div class="col-md-8">
-                    <article>
-                        <p class="text-center">
-                            <strong class="text-info">期望工作內容：後端開發為主</strong><br>
-                            <strong class="text-info">期望工作地點：台北市、新北市</strong>
-                        </p>
-                        <p>
-                            大家好，我在就學期間，發現自己在程式開發方面有興趣，所以就嚮往從事軟體工程師相關的工作，目前擁有<strong>3年的網站前後端工作經驗</strong>，主要為<strong>PHP
-                            Laravel框架的後台開發</strong>，有<strong>前端相關開發經驗</strong>，過去<strong>擁有豐富的獨立開發專案經歷</strong>，開發過的專案類型有形象網站、政府標案、購物網站、ERP訂單系統、網站SEO優化等客製化需求，這個經歷讓我培養了<strong>獨立開發的能力和解決問題的能力</strong>。我平常休閒興趣喜歡從事單車慢跑運動，以及國內簡單的旅遊觀光，也喜歡與朋友聊天，這都是我紓解壓力的方式。
-                        </p>
-                        <p>
-                            <strong>工作態度，喜歡享受和同事共同討論解決問題以及新技術分享的過程，平常有程式開發的熱誠、有責任心、樂於持續學習與嘗試。</strong>
-                        </p>
-                    </article>
-                </div>
-            </div>
-    </section>
-    <section class="skills-section">
-        <div class="container">
-            <div class="row">
-                <h5 class="text-center full-width mb30"><strong>技能分佈</strong></h5>
-                <div class="col-md-12">
-                    <p class="text-center">
-                        <strong class="text-info">期望從事產業：電子商務、物聯網、AI人工智慧、ERP系統等產品開發產業</strong>
+                    <p class="text-left">大家好，我在就學期間，發現自己在程式開發方面有興趣，所以就嚮往從事軟體工程師相關的工作，目前擁有<strong>3年的網站前後端工作經驗</strong>，主要為<strong>PHP
+                        Laravel框架的後台開發</strong>，過去<strong>擁有豐富的獨立開發專案經歷</strong>，開發過的專案類型有形象網站、政府標案、購物網站、ERP訂單系統、網站SEO優化等客製化需求，這些經歷讓我培養了<strong>獨立開發的能力和解決問題的能力</strong>。我平常休閒興趣喜歡從事單車慢跑運動，以及國內簡單的旅遊觀光，也喜歡與朋友聊天，這都是我紓解壓力的方式。
                     </p>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="skill-block content content-center" id="skill">
+        <div class="container">
+            <h2 class="font-weight-bold">技能分佈</h2>
+            <h4 class="text-info">期望從事產業：電子商務、物聯網、AI人工智慧、ERP系統等產品開發產業</h4>
+            <div class="row pt30">
                 <div class="col-md-4">
                     <h6><strong>◎ 後端技術 <span class="text-danger">(主要專精)</span></strong></h6>
-                    <p>
                     <ul>
                         <li>PHP (Laravel)</li>
                         <li>MVC 架構運用</li>
                         <li>MySql (MariaDB)</li>
                         <li>Design Pattern (OOP)</li>
                         <li>Restful Api (OAuth2.0)</li>
+                        <li>了解 Eloquent ORM</li>
                         <li>資料庫規劃 (分散式資料庫等)</li>
                         <li>基本資訊安全XSS、CSRF、SQL Injection、伺服器設定和弱點偵測</li>
                         <li>OpenCart<br>(購物網模組，有經驗)</li>
                     </ul>
-                    </p>
                 </div>
                 <div class="col-md-4">
                     <h6><strong>◎ 前端技術</strong></h6>
-                    <p>
                     <ul>
                         <li>HTML5</li>
                         <li>CSS3 (Bootstrap)</li>
@@ -182,11 +177,9 @@
                         <li>W3C 規範</li>
                         <li>無障礙網站</li>
                     </ul>
-                    </p>
                 </div>
                 <div class="col-md-4">
                     <h6><strong>◎ 作業系統與伺服器</strong></h6>
-                    <p>
                     <ul>
                         <li>Windows 10</li>
                         <li>Windows Server</li>
@@ -194,60 +187,52 @@
                         <li>Nginx</li>
                         <li>IIS</li>
                     </ul>
-                    </p>
                 </div>
+            </div>
+            <div class="row">
                 <div class="col-md-4">
-                    <h6><strong>◎ 第三放串接</strong></h6>
-                    <p>
+                    <h6><strong>◎ 第三方串接</strong></h6>
                     <ul>
                         <li>Google Api</li>
                         <li>Facebook Api</li>
                         <li>等三方Api串接</li>
                     </ul>
-                    </p>
                 </div>
                 <div class="col-md-4">
                     <h6><strong>◎ 網站上架</strong></h6>
-                    <p>
                     <ul>
                         <li>Cpanel</li>
                         <li>FTP</li>
                         <li>實體主機</li>
                         <li>虛擬主機</li>
                     </ul>
-                    </p>
                 </div>
                 <div class="col-md-4">
                     <h6><strong>◎ 程式開發編輯器</strong></h6>
-                    <p>
                     <ul>
                         <li>PHPStorm</li>
                         <li>Visual Studio</li>
                         <li>NetBeans IDE</li>
                     </ul>
-                    </p>
                 </div>
+            </div>
+            <div class="row">
                 <div class="col-md-4">
                     <h6><strong>◎ 手機應用程式開發</strong></h6>
-                    <p>
                     <ul>
                         <li>Framework7</li>
                         <li>Cordova</li>
                     </ul>
-                    </p>
                 </div>
                 <div class="col-md-4">
                     <h6><strong>◎ 版本控制</strong></h6>
-                    <p>
                     <ul>
                         <li>Git (GitKraken)</li>
                         <li>GitHub、GitLab</li>
                     </ul>
-                    </p>
                 </div>
                 <div class="col-md-4">
                     <h6><strong>◎ SEO優化</strong></h6>
-                    <p>
                     <ul>
                         <li>Search Console</li>
                         <li>Google Analytics</li>
@@ -256,20 +241,261 @@
                         <li>Open Graph protocol</li>
                         <li>搜尋關鍵字排名</li>
                     </ul>
-                    </p>
-                </div>
-                <div class="col-md-12 mt20">
-                    <p class="text-left">
-                        <strong class="text-black-50">結論：學生時期有學習Java兩年、一年原生Android
-                            App開發，培養很好的基礎觀念，出社會前使用Socket技術開發多人即時聊天室功能，以及使用PHP紀錄聊天訊息當作自己的作品，個人蠻喜歡Socket這項技術，希望將來可以有更多這方面開發的應用。</strong>
-                    </p>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="message-block content content-center valign-center" id="message-block"
+             style="background-position: 50% 80px;">
+        <div class="container">
+            <h2 style="text-transform: unset;">剛入社會 <strong class="font-25 message text-left">學生時期有學習兩年Java、一年原生Android
+                App開發，培養很好的基礎觀念，出社會前使用Socket技術開發多人即時聊天室功能，以及使用PHP紀錄聊天訊息當作自己的作品，個人蠻喜歡Socket這項技術，希望將來可以有更多這方面開發的應用。</strong>
+            </h2>
+        </div>
+    </section>
+    <section class="works-block content content-center" id="works">
+        <div class="container">
+            <h2 class="font-weight-bold">作品集</h2>
+            <div class="row pt30">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="works-item">
+                        <div class="works-head">
+                            <h3 title="嘉義觀光旅遊網">嘉義觀光旅遊網</h3>
+                            <p>政府機關、觀光旅遊</p>
+                        </div>
+                        <div class="works-content">
+                            <div class="pi-work">
+                                <img src="img/pic/pic1.png" data-fancybox="gallery" href="img/pic/pic1.png"
+                                     data-caption="嘉義觀光旅遊網">
+                            </div>
+                        </div>
+                        <div class="works-footer">
+                            <a class="btn btn-default" href="javascript:void(0);">詳細內容</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="works-item">
+                        <div class="works-head">
+                            <h3 title="信義鄉農會">信義鄉農會</h3>
+                            <p>形象網站</p>
+                        </div>
+                        <div class="works-content">
+                            <div class="pi-work">
+                                <img src="img/pic/pic2.png" data-fancybox="gallery" href="img/pic/pic2.png"
+                                     data-caption="信義鄉農會">
+                            </div>
+                        </div>
+                        <div class="works-footer">
+                            <a class="btn btn-default" href="javascript:void(0);">詳細內容</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="works-item">
+                        <div class="works-head">
+                            <h3 title="嘉義市節能補助網">嘉義市節能補助網</h3>
+                            <p>政府機關</p>
+                        </div>
+                        <div class="works-content">
+                            <div class="pi-work">
+                                <img src="img/pic/pic3.png" data-fancybox="gallery" href="img/pic/pic3.png"
+                                     data-caption="嘉義市節能補助網">
+                            </div>
+                        </div>
+                        <div class="works-footer">
+                            <a class="btn btn-default" href="javascript:void(0);">詳細內容</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="works-item">
+                        <div class="works-head">
+                            <h3 title="嘉義市工商發展投資策進會">嘉義市工商發展投資...</h3>
+                            <p>政府機關</p>
+                        </div>
+                        <div class="works-content">
+                            <div class="pi-work">
+                                <img src="img/pic/pic4.png" data-fancybox="gallery" href="img/pic/pic4.png"
+                                     data-caption="嘉義市工商發展投資策進會">
+                            </div>
+                        </div>
+                        <div class="works-footer">
+                            <a class="btn btn-default" href="javascript:void(0);">詳細內容</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="works-item">
+                        <div class="works-head">
+                            <h3 title="嘉義縣空氣及噪音污染管制網">嘉義縣空氣及噪音污...</h3>
+                            <p>政府機關</p>
+                        </div>
+                        <div class="works-content">
+                            <div class="pi-work">
+                                <img src="img/pic/pic5.jpg" data-fancybox="gallery" href="img/pic/pic5.jpg"
+                                     data-caption="嘉義縣空氣及噪音污染管制網">
+                            </div>
+                        </div>
+                        <div class="works-footer">
+                            <a class="btn btn-default" href="javascript:void(0);">詳細內容</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="works-item">
+                        <div class="works-head">
+                            <h3 title="新北平婚宴餐廳">新北平婚宴餐廳</h3>
+                            <p>簡易購物網</p>
+                        </div>
+                        <div class="works-content">
+                            <div class="pi-work">
+                                <img src="img/pic/pic6.jpg" data-fancybox="gallery" href="img/pic/pic6.jpg"
+                                     data-caption="新北平婚宴餐廳">
+                            </div>
+                        </div>
+                        <div class="works-footer">
+                            <a class="btn btn-default" href="javascript:void(0);">詳細內容</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="works-item">
+                        <div class="works-head">
+                            <h3 title="台灣好行-光林我家">台灣好行-光林我家</h3>
+                            <p>活動網站</p>
+                        </div>
+                        <div class="works-content">
+                            <div class="pi-work">
+                                <img src="img/pic/pic8.png" data-fancybox="gallery" href="img/pic/pic8.png"
+                                     data-caption="台灣好行-光林我家">
+                            </div>
+                        </div>
+                        <div class="works-footer">
+                            <a class="btn btn-default" href="javascript:void(0);">詳細內容</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="works-item">
+                        <div class="works-head">
+                            <h3 title="東石漁人碼頭">東石漁人碼頭</h3>
+                            <p>形象網站</p>
+                        </div>
+                        <div class="works-content">
+                            <div class="pi-work">
+                                <img src="img/pic/pic7.png" data-fancybox="gallery" href="img/pic/pic7.png"
+                                     data-caption="東石漁人碼頭">
+                            </div>
+                        </div>
+                        <div class="works-footer">
+                            <a class="btn btn-default" href="javascript:void(0);">詳細內容</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="choose-us-block content text-center" id="qa">
+        <div class="container">
+            <h2 class="font-weight-bold">問與答</h2>
+            <h4>整理一些問與答，讓貴公司更了解我</h4>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12 text-left">
+                    <img src="img/pic/pic9.jpg" alt="Why to choose us"
+                         class="img-responsive">
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 text-left">
+                    <div class="panel-group" id="accordion1">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h5 class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1"
+                                       href="#accordion1_1">我的能力是什麼？</a>
+                                </h5>
+                            </div>
+                            <div id="accordion1_1" class="panel-collapse collapse in">
+                                <div class="panel-body">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h5 class="panel-title">
+                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                       data-parent="#accordion1" href="#accordion1_2">我能為公司提供的產值？</a>
+                                </h5>
+                            </div>
+                            <div id="accordion1_2" class="panel-collapse collapse">
+                                <div class="panel-body">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h5 class="panel-title">
+                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                       data-parent="#accordion1" href="#accordion1_3">我的人格特質和興趣喜好？</a>
+                                </h5>
+                            </div>
+                            <div id="accordion1_3" class="panel-collapse collapse">
+                                <div class="panel-body">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h5 class="panel-title">
+                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                       data-parent="#accordion1" href="#accordion1_4">進公司後的規劃？</a>
+                                </h5>
+                            </div>
+                            <div id="accordion1_4" class="panel-collapse collapse">
+                                <div class="panel-body">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
-<script src="assets/js/jquery-3.3.1.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/custom.js"></script>
-<script></script>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="copyright text-center">Designed by ShowKing.</div>
+            </div>
+        </div>
+    </div>
+</footer>
+<a href="#promo-block" class="go2top scroll"><i class="fa fa-arrow-up"></i></a>
+<!--[if lt IE 9]>
+<script src="assets/global/plugins/respond.min.js"></script>
+<![endif]-->
+<script src="assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js"
+        type="text/javascript"></script>
+<script src="assets/global/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js"
+        type="text/javascript"></script>
+<script src="assets/js/jquery.fancybox.min.js" type="text/javascript"></script>
+<script src="assets/js/onepage/revo-ini.js" type="text/javascript"></script>
+<script src="assets/global/plugins/jquery.easing.js"></script>
+<script src="assets/global/plugins/jquery.parallax.js"></script>
+<script src="assets/global/plugins/jquery.scrollTo.min.js"></script>
+<script src="assets/js/onepage/jquery.nav.js"></script>
+<script src="assets/js/onepage/layout.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function () {
+        Layout.init();
+    });
+</script>
 </body>
 </html>
