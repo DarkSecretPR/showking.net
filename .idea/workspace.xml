@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5f6283c-fe68-495e-a149-d4e1694bb7e9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/onepage/style.css" afterPath="$PROJECT_DIR$/assets/css/onepage/style.css" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -229,7 +228,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../erl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../showking.com" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
@@ -265,12 +264,12 @@
       <updated>1534525300028</updated>
       <workItem from="1534525301483" duration="326000" />
       <workItem from="1534578894114" duration="19167000" />
-      <workItem from="1534782783908" duration="24448000" />
+      <workItem from="1534782783908" duration="25180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43941000" />
+    <option name="totallyTimeSpent" value="44673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="-9" width="2418" height="1318" extended-state="6" />
